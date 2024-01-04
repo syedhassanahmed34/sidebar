@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(206, 215, 223);
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.sidebar {
+    background-color: lightblue;
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    padding: 30px 0px;
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+
+}
+
+li:hover {
+    background-color: lightcyan;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    background-color: lightslategray;
+}
+
+.fa-solid {
+    width: 30px;
+    font-size: 22px;
+}
